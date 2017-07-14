@@ -1,6 +1,6 @@
 # Minecraft PE Server
-FROM ubuntu:trusty
-MAINTAINER  Nicholas Marus <nmarus@gmail.com>
+FROM ubuntu:xenial
+MAINTAINER  semtex41  <semtex41@users.noreply.github.com>
 
 # Setup APT
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
