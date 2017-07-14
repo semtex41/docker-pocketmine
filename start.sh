@@ -7,7 +7,7 @@ if [ -e /data/install.sh ]; then
   rm -f /data/install.sh
 fi
 
-wget -q -O /data/install.sh https://get.pocketmine.net/
+wget -q -O /data/install.sh http://get.pocketmine.net/
 chmod 755 /data/install.sh
 
 # check if configuration file exists
